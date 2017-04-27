@@ -1,0 +1,31 @@
+title: "Jasmine Test Runner"
+summary: Runs Jasmine Tests
+description: Runs Jasmine Tests
+website: https://github.com/bitrise-community/steps-jasmine-runner
+source_code_url: https://github.com/bitrise-community/steps-jasmine-runner
+support_url: https://github.com/bitrise-community/steps-jasmine-runner/issues
+host_os_tags:
+  - osx-10.10
+project_type_tags:
+  - cordova
+type_tags:
+  - build
+deps:
+  brew:
+  - name: go
+toolkit:
+  go:
+    package_name: github.com/bitrise-community/steps-jasmine-runner
+inputs:
+  - workdir: $BITRISE_SOURCE_DIR
+    opts:
+      title: "Working directory"
+      summary: ""
+      description: Working directory.
+  - options:
+    opts:
+      title: "Options to append to the jasmine command"
+      description: |-
+        Use this input to specify custom options, to append to the end of the jasmine command.
+
+        `jasmine [options]`
