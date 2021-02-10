@@ -1,6 +1,27 @@
 title: "Jasmine Test Runner"
-summary: Runs Jasmine Tests
-description: Runs Jasmine Tests
+summary: |-
+ Runs Jasmine tests.
+
+description: |-
+  Perform unit testing with our **Jasmine Test Runner** Step. 
+  If your Cordova/Ionic project has Jasmine dependency in its package.json file, the **Jasmine Test Runner** Step will get automatically inserted in your Workflow. 
+  If the dependency is missing from your project, you can manually insert the **Jasmine Test Runner** Step from our StepLib.
+
+  ### Configuring the Step
+  1. Provide your project's working directory in the **Working directory** input.
+  3. Add custom options in `jasmine [options]` in the **Options to append to the jasmine command** input.
+
+  ### Troubleshooting
+  Make sure you insert the **Jasmine Test Runner** Step right after **Run npm command** or **Run yarn command package manager** Step.
+
+
+  ### Useful links
+  - [Getting started with Ionic/Cordova apps](https://devcenter.bitrise.io/getting-started/getting-started-with-ionic-cordova-apps/)
+  - [Testing on Bitrise](https://devcenter.bitrise.io/testing/testing-index/)
+
+  ### Related Steps
+  - [Karma Jasmine Test Runner](https://www.bitrise.io/integrations/steps/karma-jasmine-runner)
+  - [Run npm command](https://www.bitrise.io/integrations/steps/npm)
 website: https://github.com/bitrise-community/steps-jasmine-runner
 source_code_url: https://github.com/bitrise-community/steps-jasmine-runner
 support_url: https://github.com/bitrise-community/steps-jasmine-runner/issues
