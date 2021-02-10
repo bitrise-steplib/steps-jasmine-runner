@@ -32,6 +32,9 @@ workflows:
         - commit: ""
         - tag: ""
         - branch: "master"
+        - branch_dest: ""
+        - pull_request_repository_url: ""
+        - pull_request_merge_branch: ""
         - pull_request_id: ""
         - clone_depth: ""
     - path::./:
