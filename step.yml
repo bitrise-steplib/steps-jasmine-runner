@@ -22,9 +22,9 @@ description: |-
   ### Related Steps
   - [Karma Jasmine Test Runner](https://www.bitrise.io/integrations/steps/karma-jasmine-runner)
   - [Run npm command](https://www.bitrise.io/integrations/steps/npm)
-website: https://github.com/bitrise-community/steps-jasmine-runner
-source_code_url: https://github.com/bitrise-community/steps-jasmine-runner
-support_url: https://github.com/bitrise-community/steps-jasmine-runner/issues
+website: https://github.com/bitrise-steplib/steps-jasmine-runner
+source_code_url: https://github.com/bitrise-steplib/steps-jasmine-runner
+support_url: https://github.com/bitrise-steplib/steps-jasmine-runner/issues
 host_os_tags:
   - osx-10.10
 project_type_tags:
@@ -36,7 +36,7 @@ deps:
   - name: go
 toolkit:
   go:
-    package_name: github.com/bitrise-community/steps-jasmine-runner
+    package_name: github.com/bitrise-steplib/steps-jasmine-runner
 inputs:
   - workdir: $BITRISE_SOURCE_DIR
     opts:

@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/bitrise-community/steps-jasmine-runner",
+	"ImportPath": "github.com/bitrise-steplib/steps-jasmine-runner",
 	"GoVersion": "go1.8",
 	"GodepVersion": "v79",
 	"Packages": [
