@@ -1,0 +1,15 @@
+# github.com/bitrise-io/go-utils v0.0.0-20170404153453-c8163959178a
+## explicit
+github.com/bitrise-io/go-utils/colorstring
+github.com/bitrise-io/go-utils/command
+github.com/bitrise-io/go-utils/errorutil
+github.com/bitrise-io/go-utils/log
+github.com/bitrise-io/go-utils/pathutil
+# github.com/bitrise-tools/go-steputils v0.0.0-20170426103110-557edc7229ad
+## explicit
+github.com/bitrise-tools/go-steputils/input
+# github.com/kballard/go-shellquote v0.0.0-20150810074751-d8ec1a69a250
+## explicit
+github.com/kballard/go-shellquote
+# github.com/stretchr/testify v1.7.0
+## explicit
